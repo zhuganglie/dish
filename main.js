@@ -1,4 +1,4 @@
-menu = [
+var menu = [
   {
     "id": "001",
     "name": "红烧排骨",
