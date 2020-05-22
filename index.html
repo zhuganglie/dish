@@ -18,34 +18,29 @@
   <header>
     <h1>今日菜谱</h1>
     </header>
+    
     <section class="menu">
-    <div class="random">
+  <article class="random">
       <h3>随机菜单</h3>
       <p class="que">问：今天吃什么呢？</p>
 <p id="ans" onclick="myDish()">答： <i class="material-icons">pets</i></p>
   <p id="demo"></p>
-</div>
-<div class="dropdown">
+</article>
+
+<article="selection">
   <h3>自选菜单</h3>
   <p class="que">问：今天吃什么呢？</p>
-  <p id="box">答：在下面选吧，懒虫！
-  <form method=post action="" name="form1">
-    <select name="type" onChange="getList()">
-      <option selected="选择菜类">选择菜类 </option>
-      <option>素菜 </option>
-      <option>荤菜 </option>
-    </select>
-    <select name="name[]" id="name" multiple>
-      <option></option>
-    </select>
-    <div id="display"></div>
-  </p>  
-  </form>
-  </p>
-  </div>
+  <p id="box">答：在下面选吧，懒虫！</p>
+  <select name ="choice" id="choice" multiple onchange="printAll()">
+    <option value="" disabled hidden>菜单</option>
+  </select>
+  <p id="display"></p>
+  </article>
 </section>
+
 <footer>
   <p id="copyright">Copyright &copy; 2020 by Caesar <i class="material-icons">face</i></p>
   </footer>
+  
 </body>
 </html>
