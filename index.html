@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="data.js"></script>
   <script src="main.js"></script>
+  <script src="select.js"></script>
   <title>菜谱</title>
   <!-- Custom Styles -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -26,7 +28,20 @@
 <div class="dropdown">
   <h3>自选菜单</h3>
   <p class="que">问：今天吃什么呢？</p>
-  
+  <p id="box">答：在下面选吧，懒虫！
+  <form method=post action="" name="form1">
+    <select name="type" onChange="getList()">
+      <option selected="选择菜类">选择菜类 </option>
+      <option>素菜 </option>
+      <option>荤菜 </option>
+    </select>
+    <select name="name[]" id="name" multiple>
+      <option></option>
+    </select>
+    <div id="display"></div>
+  </p>  
+  </form>
+  </p>
   </div>
 </section>
 <footer>
