@@ -17,11 +17,11 @@ select {
   color: #3F3F3F;
 
   /* Here's the code we need */
-  -webkit-appearance: none;
+  -webkit-appearance: menulist;
   -moz-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
-  appearance: none;
+   appearance: none;
 }
 
 .select-wrapper {
