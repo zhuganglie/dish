@@ -23,17 +23,19 @@
   <article class="random">
       <h3>随机菜单</h3>
       <p class="que">问：今天吃什么呢？</p>
-<p id="ans" onclick="myDish()">答： <i class="material-icons">pets</i></p>
+<p id="ans" onclick="myDish()">答：按我吧，<i class="material-icons">pets</i> 懒虫！</p>
   <p id="demo"></p>
 </article>
 
-<article="selection">
+<article class="selection">
   <h3>自选菜单</h3>
-  <p class="que">问：今天吃什么呢？</p>
-  <p id="box">答：在下面选吧，懒虫！</p>
+  <p id="que">问：今天吃什么呢？</p>
+  <p id="box">答：自己选吧，懒虫！</p>
+  <div class="select-wrapper">
   <select name ="choice" id="choice" multiple onchange="printAll()">
     <option value="" disabled hidden>菜单</option>
   </select>
+  </div>
   <p id="display"></p>
   </article>
 </section>
