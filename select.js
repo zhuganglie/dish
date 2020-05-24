@@ -28,5 +28,8 @@ function printAll() {
  var text = $('#choice option:selected').toArray().map(item => item.text).join('、');
  document.getElementById('display').innerHTML = text;
  }
+function visible() {
+ document.getElementById("choice").style.visibility = "visible";
+ }
 
 

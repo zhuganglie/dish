@@ -29,20 +29,19 @@
 <article class="selection">
   <h3>自选菜单</h3>
   <div id="wrap">
-  <img id="sel" src="sel.svg" width="36" height="36">
+  <img id="sel" src="sel.svg" width="36" height="36" onclick="visible()" />
   &nbsp &nbsp
-  <form class="select-wrapper">
-  <select name ="choice" id="choice" multiple size="5" onchange="printAll()">
+  <select name ="choice" id="choice" multiple size="5" style="visibility:hidden" onchange="printAll()">
     <option value="" disabled hidden>菜单</option>
   </select>
-  </form>
+  
   </div>
-  <span id="display"></span>
+  <p id="display"></p>
   </article>
 </section>
 
 <footer>
-  <p id="copyright">Copyright &copy; 2020 by Caesar <img src="dinner.svg" width="18" height="18" /> </p>
+  <p id="copyright">Copyright &copy; 2020 by Caesar <img src="dinner.svg" width="24" height="24" /> </p>
   </footer>
   
 </body>
