@@ -22,26 +22,27 @@
     <section class="menu">
   <article class="random">
       <h3>随机菜单</h3>
-      <p class="que">问：今天吃什么呢？</p>
-<p id="ans" onclick="myDish()">答：按我 <i class="material-icons">pets</i> 吧，懒虫！</p>
-  <p id="demo"></p>
+  <img id="ans" src="eat.svg" width="36" height="36" onclick="myDish()"/>
+  <span id="demo"></span>
 </article>
 
 <article class="selection">
   <h3>自选菜单</h3>
-  <p id="que">问：今天吃什么呢？</p>
-  <p id="box">答：自己选吧，懒虫！</p>
-  <div class="select-wrapper">
-  <select name ="choice" id="choice" multiple onchange="printAll()">
+  <div id="wrap">
+  <img id="sel" src="sel.svg" width="36" height="36">
+  &nbsp &nbsp
+  <form class="select-wrapper">
+  <select name ="choice" id="choice" multiple size="5" onchange="printAll()">
     <option value="" disabled hidden>菜单</option>
   </select>
+  </form>
   </div>
-  <p id="display"></p>
+  <span id="display"></span>
   </article>
 </section>
 
 <footer>
-  <p id="copyright">Copyright &copy; 2020 by Caesar <i class="material-icons">face</i></p>
+  <p id="copyright">Copyright &copy; 2020 by Caesar <img src="dinner.svg" width="18" height="18" /> </p>
   </footer>
   
 </body>

@@ -24,7 +24,6 @@ for (var i = 0; i <list.length; i++) {
   select.appendChild(el);
 };
 }
-
 function printAll() {
  var text = $('#choice option:selected').toArray().map(item => item.text).join('、');
  document.getElementById('display').innerHTML = text;

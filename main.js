@@ -37,6 +37,7 @@ function getArrayItems(arr, num) {
 var x = getArrayItems(veg,2);
 var y = getArrayItems(meat,1);
 var z = x.concat(y);
+/*display in list*/
 function makeUL(array) {
   var list = document.createElement('ul');
   for (var i = 0; i < array.length; i++) {
