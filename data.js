@@ -53,4 +53,41 @@ var menu = [
     "taste": "清炒",
     "recipe": "",
   },
+  {
+    "name": "粉蒸肉",
+    "type": "荤菜",
+    "taste": "",
+    "recipe": "",
+  },
+  {
+        "name": "羊角豆炒肉",
+        "type": "荤菜",
+        "taste": "",
+        "recipe": "",
+  },
+  {
+        "name": "芹菜炒香干",
+        "type": "素菜",
+        "taste": "",
+        "recipe": "",
+  },
+  {
+        "name": "炒四季豆",
+        "type": "素菜",
+        "taste": "",
+        "recipe": "",
+  },
+  {
+        "name": "香菇烧鸡翅",
+        "type": "荤菜",
+        "taste": "",
+        "recipe": "",
+  },
+  {
+        "name": "",
+        "type": "",
+        "taste": "",
+        "recipe": "",
+  },
+  
 ]
