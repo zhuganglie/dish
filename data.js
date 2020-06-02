@@ -62,32 +62,39 @@ var menu = [
   {
         "name": "羊角豆炒肉",
         "type": "荤菜",
-        "taste": "",
+        "taste": "咸鲜",
         "recipe": "",
   },
   {
         "name": "芹菜炒香干",
         "type": "素菜",
-        "taste": "",
+        "taste": "咸鲜",
         "recipe": "",
   },
   {
         "name": "炒四季豆",
         "type": "素菜",
-        "taste": "",
+        "taste": "清淡",
         "recipe": "",
   },
   {
         "name": "香菇烧鸡翅",
         "type": "荤菜",
-        "taste": "",
+        "taste": "咸鲜",
         "recipe": "",
   },
   {
-        "name": "",
-        "type": "",
-        "taste": "",
+        "name": "辣椒茄子",
+        "type": "素菜",
+        "taste": "咸辣",
         "recipe": "",
   },
+  {
+      "name":"",
+      "type":"",
+      "taste":"",
+      "recipe":"",
+  },
+  {},{},{},{},{},{},{},
   
 ]
