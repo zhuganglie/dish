@@ -1,6 +1,6 @@
 var menu = [
   {
-    "name": "红烧排骨",
+    "name": "葱烧排骨",
     "type": "荤菜",
     "taste": "红烧",
     "recipe": "",
@@ -72,7 +72,7 @@ var menu = [
         "recipe": "",
   },
   {
-        "name": "炒四季豆",
+        "name": "清炒四季豆",
         "type": "素菜",
         "taste": "清淡",
         "recipe": "",
@@ -90,11 +90,46 @@ var menu = [
         "recipe": "",
   },
   {
-      "name":"",
-      "type":"",
+      "name":"蚝油生菜",
+      "type":"素菜",
       "taste":"",
       "recipe":"",
   },
-  {},{},{},{},{},{},{},
+  {
+      "name": "回锅肉",
+      "type": "荤菜",
+      "taste": "",
+      "recipe": "",    
+  },{
+          "name": "番茄炒蛋",
+          "type": "素菜",
+          "taste": "",
+          "recipe": "",
+  },{
+          "name": "节瓜炒肉",
+          "type": "荤菜",
+          "taste": "",
+          "recipe": "",
+  },{
+          "name": "",
+          "type": "",
+          "taste": "",
+          "recipe": "",
+  },{
+          "name": "",
+          "type": "",
+          "taste": "",
+          "recipe": "",
+  },{
+          "name": "",
+          "type": "",
+          "taste": "",
+          "recipe": "",
+  },{
+          "name": "",
+          "type": "",
+          "taste": "",
+          "recipe": "",
+  },
   
 ]

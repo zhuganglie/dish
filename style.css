@@ -73,7 +73,6 @@ select {
   font-size: 16px;
   font-weight: bold;
   color: black;
-  /* Here's the code we need */
   -webkit-appearance: menulist;
   -moz-appearance: none;
   -ms-appearance: none;
