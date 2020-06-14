@@ -111,14 +111,14 @@ var menu = [
           "taste": "",
           "recipe": "",
   },{
-          "name": "",
-          "type": "",
-          "taste": "",
+          "name": "地三鲜",
+          "type": "素菜",
+          "taste": "鲜咸",
           "recipe": "",
   },{
-          "name": "",
-          "type": "",
-          "taste": "",
+          "name": "素炒香菇",
+          "type": "素菜",
+          "taste": "鲜咸",
           "recipe": "",
   },{
           "name": "",
